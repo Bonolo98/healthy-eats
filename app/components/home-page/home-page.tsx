@@ -4,7 +4,7 @@ import HomeText from "./home-text/home-text";
 export default function HomePage() {
   return (
     <>
-      <div className="w-screen h-screen bg-stone-100 grid grid-cols-12">
+      <div className="w-screen h-screen bg-white grid grid-cols-12">
         <div className="absolute text-center w-screen h-screen flex items-end justify-center bottom-10">
           <img
             className="-rotate-90 drp-shadow-lg"

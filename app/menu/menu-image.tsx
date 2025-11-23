@@ -1,6 +1,6 @@
 import Image from "next/image";
-import drinksImage from "../../../public/images/drinks.png";
-import mealsImage from "../../../public/images/meals.png";
+import drinksImage from "../../public/images/drinks.png";
+import mealsImage from "../../public/images/meals.png";
 
 export function MealImage() {
   return (
@@ -10,7 +10,7 @@ export function MealImage() {
   );
 }
 
-export function FoodImage() {
+export function DrinkImage() {
   return (
     <>
       <Image src={drinksImage} alt="image" />
