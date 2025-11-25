@@ -5,14 +5,16 @@ import { MealText } from "./menu-text";
 export default function Menu() {
   return (
     <>
-      <div className="w-screen h-screen bg-white grid grid-cols-12">
+      <div className="w-screen min-h-screen bg-white grid grid-cols-1 lg:grid-cols-12">
         <div className="absolute w-full h-full">
           <PageNav title="MENU" />
         </div>
-        <div className=" h-full col-span-6 py-20 px-10">
+        {/* Image section - full width on mobile, half on desktop */}
+        <div className="h-full lg:col-span-6 py-10 lg:py-20 px-6 lg:px-10 order-1">
           <MealImage />
         </div>
-        <div className="h-full col-span-6 flex items-center">
+        {/* Text section - full width on mobile, half on desktop */}
+        <div className="h-full lg:col-span-6 flex items-center py-10 lg:py-0 order-2">
           <MealText />
         </div>
       </div>

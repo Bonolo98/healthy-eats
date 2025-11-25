@@ -4,16 +4,26 @@ import mealsImage from "../../public/images/meals.png";
 
 export function MealImage() {
   return (
-    <>
-      <Image src={mealsImage} alt="image" />
-    </>
+    <div className="w-full h-full flex items-center justify-center">
+      <Image 
+        src={mealsImage} 
+        alt="Healthy meals" 
+        placeholder="blur" 
+        className="w-full max-w-md lg:max-w-full h-auto object-contain"
+      />
+    </div>
   );
 }
 
 export function DrinkImage() {
   return (
-    <>
-      <Image src={drinksImage} alt="image" />
-    </>
+    <div className="w-full h-full flex items-center justify-center">
+      <Image 
+        src={drinksImage} 
+        alt="Refreshing drinks" 
+        placeholder="blur" 
+        className="w-full max-w-md lg:max-w-full h-auto object-contain"
+      />
+    </div>
   );
 }

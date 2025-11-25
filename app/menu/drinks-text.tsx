@@ -39,15 +39,19 @@ const drinkItems: DrinkItem[] = [
 
 export function DrinksText() {
   return (
-    <div>
-      <h1 className="font-bold my-4 text-xl">DRINKS</h1>
-      {drinkItems.map((item) => (
-        <div key={item.id} className="grid grid-cols-6 mb-6">
-          <p className="font-bold col-span-3">{item.name}</p>
-          <p className="font-bold">{item.price}</p>
-          <p className="col-span-3 text-gray-600">{item.description}</p>
-        </div>
-      ))}
+    <div className="w-full max-w-2xl">
+      <h1 className="font-bold my-4 text-2xl lg:text-xl text-center lg:text-left">DRINKS</h1>
+      <div className="space-y-6 lg:space-y-4">
+        {drinkItems.map((item) => (
+          <div key={item.id} className="grid grid-cols-1 lg:grid-cols-6 gap-2 lg:gap-0">
+            <p className="font-bold text-lg lg:text-base lg:col-span-3">{item.name}</p>
+            <p className="font-bold text-lg lg:text-base lg:text-left">R48</p>
+            <p className="text-gray-600 lg:col-span-3 text-sm lg:text-base mt-1 lg:mt-0">
+              {item.description}
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
