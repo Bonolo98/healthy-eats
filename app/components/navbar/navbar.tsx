@@ -37,7 +37,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`bg-[#ef6d6d] w-screen h-20 p-4 fixed flex items-center z-50 transition-transform duration-300 ${
+      className={`bg-[#ef6d6d] w-full h-20 p-4 fixed flex items-center z-50 transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >

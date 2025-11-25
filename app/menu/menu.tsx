@@ -5,7 +5,7 @@ import { MealText } from "./menu-text";
 export default function Menu() {
   return (
     <>
-      <div className="w-screen min-h-screen bg-white grid grid-cols-1 lg:grid-cols-12">
+      <div className="w-full min-h-screen bg-white grid grid-cols-1 lg:grid-cols-12">
         <div className="absolute w-full h-full">
           <PageNav title="MENU" />
         </div>

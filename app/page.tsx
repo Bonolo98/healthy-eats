@@ -8,18 +8,20 @@ import Beverages from "./menu/beverages";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <section id="home">
-        <HomePage />
-      </section>
-      <section id="menu">
-        <Menu />
-        <Beverages />
-      </section>
+      <div className="w-screen">
+        <Navbar />
+        <section id="home">
+          <HomePage />
+        </section>
+        <section id="menu">
+          <Menu />
+          <Beverages />
+        </section>
 
-      <section id="contacts">
-        <ContactPage />
-      </section>
+        <section id="contacts">
+          <ContactPage />
+        </section>
+      </div>
     </>
   );
 }

@@ -22,7 +22,7 @@ export function DrinkImage() {
         src={drinksImage} 
         alt="Refreshing drinks" 
         placeholder="blur" 
-        className="w-full max-w-md lg:max-w-full h-auto object-contain"
+        className="w-full max-w-md lg:max-w-full h-auto object-contain lg:scale-120"
       />
     </div>
   );
