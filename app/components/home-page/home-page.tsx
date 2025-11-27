@@ -34,8 +34,7 @@ export default function HomePage() {
   return (
     <>
       <div className="w-full h-screen bg-white grid grid-cols-1 lg:grid-cols-12">
-        {/* Arrow icon - responsive positioning and size */}
-        <div className="absolute text-center w-full h-full flex items-end justify-center bottom-4 lg:bottom-10 z-10">
+        <div className="absolute w-full h-full flex items-end justify-center bottom-4 lg:bottom-10 z-10">
           <img
             onClick={() => scrollToSection("menu")}
             className="-rotate-90 drop-shadow-md cursor-pointer hover:scale-110 transition-transform duration-200 w-12 h-12 lg:w-16 lg:h-16"
@@ -46,15 +45,13 @@ export default function HomePage() {
           />
         </div>
 
-        {/* Text section - full width on mobile, half on desktop */}
-        <div className="bg-white h-full lg:col-span-6 lg:py-20 px-6 lg:px-10 order-2 lg:order-1 hidden sm:block">
+       <div className="bg-white w-full h-full lg:col-span-12 lg:py-20 px-6 lg:px-10 order-2 lg:order-1 hidden sm:block">
           <HomeText />
         </div>
 
-        {/* Image section - full width on mobile, half on desktop */}
-        <div className="bg-white h-full lg:col-span-6 order-1 lg:order-2 animate__animated animate__fadeIn">
+          {/*<div className="bg-white h-full lg:col-span-6 order-1 lg:order-2 animate__animated animate__fadeIn">
           <HomeImage />
-        </div>
+        </div> */}
       </div>
     </>
   );
