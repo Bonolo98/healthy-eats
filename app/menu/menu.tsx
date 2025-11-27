@@ -9,11 +9,9 @@ export default function Menu() {
         <div className="absolute w-full h-full">
           <PageNav title="MENU" />
         </div>
-        {/* Image section - full width on mobile, half on desktop */}
-        <div className="h-full lg:col-span-6 py-10 lg:py-20 px-6 lg:px-10 order-1">
+        <div className="h-full lg:col-span-6 py-10 lg:py-20 px-6 lg:px-10 order-1 mt-10">
           <MealImage />
         </div>
-        {/* Text section - full width on mobile, half on desktop */}
         <div className="h-full lg:col-span-6 flex items-center py-10 lg:py-0 order-2">
           <MealText />
         </div>

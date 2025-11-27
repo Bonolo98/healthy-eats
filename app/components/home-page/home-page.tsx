@@ -45,7 +45,7 @@ export default function HomePage() {
           />
         </div>
 
-       <div className="bg-white w-full h-full lg:col-span-12 lg:py-20 px-6 lg:px-10 order-2 lg:order-1 hidden sm:block">
+       <div className="bg-white w-full h-full col-span-12 lg:py-20 px-6 lg:px-10 order-2 lg:order-1 sm:block">
           <HomeText />
         </div>
 
