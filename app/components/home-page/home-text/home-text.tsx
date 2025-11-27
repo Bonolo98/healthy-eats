@@ -1,7 +1,7 @@
 export default function HomeText() {
   return (
     <>
-      <div className="w-full h-full flex items-center justify-center lg:justify-center">
+      <div className="w-full h-full flex items-center justify-center lg:justify-center absolute">
         <div className="lg:text-left max-w-2xl">
           <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl font-bold text-[#ef6d6d] leading-tight">
             STAY FRESH WITH HEALTHY EATS

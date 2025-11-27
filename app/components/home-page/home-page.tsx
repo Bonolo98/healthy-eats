@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import HomeImage from "./home-image/home-image";
 import HomeText from "./home-text/home-text";
+import homeImage from "../../../public/images/home.jpg";
+import Image from "next/image";
 
 export default function HomePage() {
   const [isVisible, setIsVisible] = useState(true);
@@ -33,8 +34,18 @@ export default function HomePage() {
 
   return (
     <>
-      <div className="w-full h-screen bg-white grid grid-cols-1 lg:grid-cols-12">
-        <div className="absolute w-full h-full flex items-end justify-center bottom-4 lg:bottom-10 z-10">
+      <div className="w-full h-screen bg-white grid grid-cols-1 lg:grid-cols-12 ">
+        <div
+          className="absolute w-full h-full flex items-end justify-center bottom-4 lg:bottom-10 z-10  "
+          style={{
+            backgroundImage: "url('/images/home.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="bg-gradient-to-b from-white from-30% via-white via-60% w-full h-screen absolute">
+
+          </div>
           <img
             onClick={() => scrollToSection("menu")}
             className="-rotate-90 drop-shadow-md cursor-pointer hover:scale-110 transition-transform duration-200 w-12 h-12 lg:w-16 lg:h-16"
@@ -45,13 +56,29 @@ export default function HomePage() {
           />
         </div>
 
-       <div className="bg-white w-full h-full col-span-12 lg:py-20 px-6 lg:px-10 order-2 lg:order-1 sm:block">
+        <div className="z-20 w-full h-full col-span-12 lg:py-20 px-6 lg:px-10 order-2 lg:order-1 sm:block">
           <HomeText />
         </div>
 
-          {/*<div className="bg-white h-full lg:col-span-6 order-1 lg:order-2 animate__animated animate__fadeIn">
+        {/* <div className="bg-white h-full col-s order-1 lg:order-2">
           <HomeImage />
         </div> */}
+      </div>
+    </>
+  );
+}
+
+export function HomeImage() {
+  return (
+    <>
+      <div className="w-full h-full flex items-center justify-center p-4 lg:p-0">
+        <Image
+          src={homeImage}
+          alt="Healthy food presentation"
+          className="scale-120 lg:scale-100 w-full max-w-md lg:max-w-full h-auto object-contain"
+          placeholder="blur"
+          priority
+        />
       </div>
     </>
   );
