@@ -36,24 +36,24 @@ export default function HomePage() {
     <>
       <div className="w-full h-screen bg-white grid grid-cols-1 lg:grid-cols-12 ">
         <div
-          className="absolute w-full h-full flex items-end justify-center bottom-4 lg:bottom-10 z-10  "
+          className="absolute w-full h-full flex items-end justify-center  z-10  bg-cover"
           style={{
             backgroundImage: "url('/images/home.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
-          <div className="bg-gradient-to-b from-white from-30% via-white via-60% w-full h-screen absolute">
+          {/* <div className="bg-gradient-to-b from-white from-30% via-white via-60% w-full h-screen absolute">
 
-          </div>
-          <img
+          </div> */}
+          {/* <img
             onClick={() => scrollToSection("menu")}
             className="-rotate-90 drop-shadow-md cursor-pointer hover:scale-110 transition-transform duration-200 w-12 h-12 lg:w-16 lg:h-16"
             width="80"
             height="80"
             src="https://img.icons8.com/ios-filled/50/FFBC40/circled-left-2.png"
             alt="scroll to menu"
-          />
+          /> */}
         </div>
 
         <div className="z-20 w-full h-full col-span-12 lg:py-20 px-6 lg:px-10 order-2 lg:order-1 sm:block">
