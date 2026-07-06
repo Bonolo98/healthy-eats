@@ -1,0 +1,104 @@
+{
+    "menu": {
+        "meals": [
+            {
+                "id": 1,
+                "title": "Grilled Chicken & Brown Rice Bowl",
+                "description": "Grilled chicken breast served with brown rice, steamed broccoli, carrots, and a light herb dressing.",
+                "price": 89.99
+            },
+            {
+                "id": 2,
+                "title": "Beef Stir Fry",
+                "description": "Lean beef strips sautéed with mixed vegetables and served over brown rice.",
+                "price": 99.99
+            },
+            {
+                "id": 3,
+                "title": "Grilled Salmon Salad",
+                "description": "Fresh grilled salmon on a bed of mixed greens, cucumber, avocado, cherry tomatoes, and lemon vinaigrette.",
+                "price": 119.99
+            },
+            {
+                "id": 4,
+                "title": "Chicken Caesar Wrap",
+                "description": "Whole wheat wrap filled with grilled chicken, romaine lettuce, parmesan, and light Caesar dressing.",
+                "price": 84.99
+            },
+            {
+                "id": 5,
+                "title": "Veggie Power Bowl",
+                "description": "Quinoa, roasted sweet potato, chickpeas, spinach, avocado, and tahini dressing.",
+                "price": 79.99
+            },
+            {
+                "id": 6,
+                "title": "Turkey & Avocado Sandwich",
+                "description": "Whole grain bread with sliced turkey breast, avocado, lettuce, tomato, and mustard.",
+                "price": 74.99
+            },
+            {
+                "id": 7,
+                "title": "Grilled Chicken Salad",
+                "description": "Mixed greens topped with grilled chicken, cucumber, tomatoes, peppers, and balsamic dressing.",
+                "price": 89.99
+            },
+            {
+                "id": 8,
+                "title": "Tofu & Vegetable Stir Fry",
+                "description": "Marinated tofu with fresh vegetables in a light soy-ginger sauce served with brown rice.",
+                "price": 84.99
+            }
+        ],
+        "drinks": [
+            {
+                "id": 9,
+                "title": "Green Detox Juice",
+                "description": "Spinach, cucumber, green apple, celery, and lemon.",
+                "price": 39.99
+            },
+            {
+                "id": 10,
+                "title": "Berry Smoothie",
+                "description": "Strawberries, blueberries, banana, Greek yogurt, and almond milk.",
+                "price": 49.99
+            },
+            {
+                "id": 11,
+                "title": "Mango Protein Shake",
+                "description": "Fresh mango blended with protein powder, low-fat milk, and oats.",
+                "price": 54.99
+            },
+            {
+                "id": 12,
+                "title": "Fresh Orange Juice",
+                "description": "100% freshly squeezed oranges with no added sugar.",
+                "price": 34.99
+            },
+            {
+                "id": 13,
+                "title": "Iced Lemon Tea",
+                "description": "Refreshing black tea infused with lemon and lightly sweetened.",
+                "price": 29.99
+            },
+            {
+                "id": 14,
+                "title": "Coconut Water",
+                "description": "Naturally refreshing coconut water rich in electrolytes.",
+                "price": 27.99
+            },
+            {
+                "id": 15,
+                "title": "Strawberry Banana Smoothie",
+                "description": "A creamy blend of strawberries, bananas, yogurt, and honey.",
+                "price": 44.99
+            },
+            {
+                "id": 16,
+                "title": "Infused Water",
+                "description": "Filtered water infused with lemon, mint, cucumber, and seasonal fruit.",
+                "price": 19.99
+            }
+        ]
+    }
+}
